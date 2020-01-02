@@ -1,0 +1,2 @@
+class TextScan < ApplicationRecord
+end

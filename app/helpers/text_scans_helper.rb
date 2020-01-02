@@ -1,0 +1,2 @@
+module TextScansHelper
+end

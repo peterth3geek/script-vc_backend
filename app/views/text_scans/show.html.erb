@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @text_scan.body %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @text_scan.title %>
+</p>
+
+<%= link_to 'Edit', edit_text_scan_path(@text_scan) %> |
+<%= link_to 'Back', text_scans_path %>
